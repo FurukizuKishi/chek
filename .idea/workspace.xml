@@ -2,15 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48c6dbcc-04e0-4439-b98d-85e8e1d3c645" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ck18334/methods/drawMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ck18334/methods/imageMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ck18334/methods/methods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ck18334/methods/stringMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ck18334/packages/elmap/ElementMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ck18334/packages/elmap/defaults/SwingMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ck18334/packages/graph/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ck18334/packages/graph/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ck18334/packages/swing/DataTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ck18334/methods/drawMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ck18334/methods/drawMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/methods/drawMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ck18334/methods/imageMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ck18334/methods/imageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/methods/imageMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ck18334/methods/methods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ck18334/methods/methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/methods/methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ck18334/methods/stringMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ck18334/methods/stringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/methods/stringMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/elmap/ElementMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/elmap/ElementMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/packages/elmap/ElementMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/elmap/defaults/SwingMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/elmap/defaults/SwingMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/packages/elmap/defaults/SwingMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/graph/Edge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/graph/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/packages/graph/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/graph/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/graph/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/packages/graph/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/swing/DataTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/swing/DataTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/packages/swing/DataTable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +31,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ck18334/methods/methods.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/methods/methods.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/methods/drawMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -34,6 +53,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ck18334/methods/drawMethods.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="73" />
@@ -52,17 +78,6 @@
               <item name="chek" type="b2602c69:ProjectViewProjectNode" />
               <item name="chek" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="chek" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chek" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chek" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chek" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ck18334" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -72,9 +87,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603741748156" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603744351243" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CK.DESKTOP-BR5NVLN\Documents\Git Repositories\Programming\Misc\chek" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\CK.DESKTOP-BR5NVLN\Documents\Git Repositories\Programming\Misc\chek\src" />
       <recent name="C:\Users\CK.DESKTOP-BR5NVLN\Documents\Git Repositories\Programming\Misc\chek\src\ck18334\methods" />
@@ -107,7 +125,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -137,10 +154,17 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ck18334/methods/methods.java">
+    <entry file="file://$PROJECT_DIR$/methods/methods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/methods/drawMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
