@@ -2,25 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48c6dbcc-04e0-4439-b98d-85e8e1d3c645" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ck18334/methods/drawMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ck18334/methods/drawMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/methods/drawMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ck18334/methods/imageMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ck18334/methods/imageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/methods/imageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ck18334/methods/methods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ck18334/methods/methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/methods/methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ck18334/methods/stringMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ck18334/methods/stringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/methods/stringMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/elmap/ElementMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/elmap/ElementMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/packages/elmap/ElementMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/elmap/defaults/SwingMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/elmap/defaults/SwingMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/packages/elmap/defaults/SwingMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/graph/Edge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/graph/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/packages/graph/Edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/graph/State.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/graph/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/packages/graph/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/swing/DataTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ck18334/packages/swing/DataTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/packages/swing/DataTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chek.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ck18334/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods/drawMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ck18334/methods/drawMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods/imageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ck18334/methods/imageMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods/methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ck18334/methods/methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods/stringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ck18334/methods/stringMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/elmap/ElementMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ck18334/packages/elmap/ElementMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/elmap/defaults/SwingMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ck18334/packages/elmap/defaults/SwingMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graph/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ck18334/packages/graph/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/graph/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ck18334/packages/graph/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/swing/DataTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ck18334/packages/swing/DataTable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +30,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/methods/methods.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ck18334/methods/methods.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
@@ -41,7 +39,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/methods/drawMethods.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ck18334/methods/drawMethods.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
@@ -67,27 +65,45 @@
     <option name="height" value="728" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="chek" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chek" type="462c0819:PsiDirectoryNode" />
+              <item name="chek" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="chek" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="chek" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="chek" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="chek" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="chek" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="chek" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="chek" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ck18334" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603744496235" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603746374031" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -154,14 +170,14 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/methods/methods.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ck18334/methods/methods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/methods/drawMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ck18334/methods/drawMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
