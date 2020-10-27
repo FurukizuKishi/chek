@@ -1,6 +1,6 @@
-package com.ck18334.packages.graph;
+package com.chek.src.com.ck18334.packages.graph;
 
-import com.ck18334.methods.stringMethods;
+import com.chek.src.com.ck18334.methods.stringMethods;
 
 import java.util.ArrayList;
 import java.util.Set;

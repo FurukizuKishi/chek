@@ -1,6 +1,6 @@
-package com.ck18334.packages.elmap.defaults;
+package com.chek.src.com.ck18334.packages.elmap.defaults;
 
-import com.ck18334.packages.elmap.ElementMap;
+import com.chek.src.com.ck18334.packages.elmap.ElementMap;
 
 import javax.swing.*;
 

@@ -1,6 +1,7 @@
-package com.ck18334.methods;
+package com.chek.src.com.ck18334.methods;
 
 import javax.imageio.ImageIO;
+import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -10,11 +11,10 @@ import java.net.URL;
 public class imageMethods {
     //Obtain a sprite from a path.
     public static BufferedImage getExternalImage(String spritePath) {
-        File file = new File(spritePath);
         try {
+            File file = new File(spritePath);
             return ImageIO.read(file);
-        } catch (IOException e) {
-            //System.out.println(e);
+        } catch (NullPointerException | IOException e) {
             return null;
         }
     }
@@ -29,5 +29,9 @@ public class imageMethods {
         g2.dispose();
 
         return resizedImg;
+    }
+
+    public static ImageIcon createIcon(String filePath, int size) {
+        return new ImageIcon(getScaledImage(getExternalImage(filePath), size, size));
     }
 }

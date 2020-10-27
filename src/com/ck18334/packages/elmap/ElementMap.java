@@ -1,6 +1,6 @@
-package com.ck18334.packages.elmap;
+package com.chek.src.com.ck18334.packages.elmap;
 
-import com.ck18334.packages.swing.DataTable;
+import com.chek.src.com.ck18334.packages.swing.DataTable;
 
 import javax.swing.*;
 import java.awt.*;

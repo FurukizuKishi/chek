@@ -1,4 +1,4 @@
-package com.ck18334.methods;
+package com.chek.src.com.ck18334.methods;
 
 public class methods {
     //Divide integers without truncation.
