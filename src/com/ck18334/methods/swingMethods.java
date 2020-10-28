@@ -3,6 +3,7 @@ package com.chek.src.com.ck18334.methods;
 import javax.swing.*;
 import javax.swing.border.BevelBorder;
 import javax.swing.border.CompoundBorder;
+import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -15,11 +16,23 @@ public class swingMethods {
             // handle exception
         }
     }
-    public static JPanel createPanel(JFrame frame, int x, int y, int w, int h) {
-        return createPanel(frame, null, x, y, w, h);
-    }
-    public static JPanel createPanel(JFrame frame, String title, int x, int y, int w, int h) {
+    public static JPanel createSection(JComponent frame, String title, int x, int y, int w, int h) {
         JPanel panel = alterPanel(new JPanel(), title, x, y, w, h);
+        frame.add(panel);
+        return panel;
+    }
+    public static JPanel createSection(JFrame frame, String title, int x, int y, int w, int h) {
+        JPanel panel = alterPanel(new JPanel(), title, x, y, w, h);
+        frame.add(panel);
+        return panel;
+    }
+    public static JPanel createPanel(JComponent frame, int x, int y, int w, int h) {
+        JPanel panel = alterPanel(new JPanel(), null, x, y, w, h);
+        frame.add(panel);
+        return panel;
+    }
+    public static JPanel createPanel(JFrame frame, int x, int y, int w, int h) {
+        JPanel panel = alterPanel(new JPanel(), null, x, y, w, h);
         frame.add(panel);
         return panel;
     }
@@ -29,8 +42,11 @@ public class swingMethods {
     public static JPanel alterPanel(JPanel panel, String title, int x, int y, int w, int h) {
         panel.setLocation(x, y);
         panel.setLayout(null);
-        if (title != null) {
-            panel.setBorder(createBorder(title));
+        if (title == null) {
+            panel.setBorder(createBorder());
+        }
+        else {
+            panel.setBorder(createDepressedSection(title));
         }
         panel.setSize(w, h);
         panel.setVisible(true);
@@ -62,7 +78,7 @@ public class swingMethods {
         list.setSize(w, h);
 
         JScrollPane bar = createScrollpane(list, x, y, w, h);
-        bar.setBorder(createBorder(title));
+        bar.setBorder(createDepressedSection(title));
         bar.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
         bar.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
 
@@ -111,7 +127,10 @@ public class swingMethods {
         });
         return field;
     }
-    public static CompoundBorder createBorder(String title) {
-        return BorderFactory.createCompoundBorder(new TitledBorder(title), new BevelBorder(1));
+    public static TitledBorder createDepressedSection(String title) {
+        return BorderFactory.createTitledBorder(new EtchedBorder(EtchedBorder.LOWERED), title);
+    }
+    public static CompoundBorder createBorder() {
+        return BorderFactory.createCompoundBorder(new BevelBorder(BevelBorder.RAISED), new BevelBorder(BevelBorder.LOWERED));
     }
 }
